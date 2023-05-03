@@ -1,0 +1,48 @@
+.header-bgc {
+    background-color: var(--p-orange);
+    height: 120px;
+
+    .container {
+        padding: 5px 0px;
+
+        img {
+            width: 80px;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--white);
+
+            font-size: 20px;
+            transition: 0.5s ease;
+
+            font-family: "Jost", sans-serif;
+        }
+
+        h2 {
+            font-size: 60px;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .traslate {
+            transform: translateX(-50px);
+            position: absolute;
+            top: 25px;
+            left: -44px;
+        }
+
+        #navbarDropdown {
+            font-size: 20px;
+        }
+
+        a:hover {
+            font-weight: bolder;
+            font-size: 1.5rem;
+
+            transition: 0.5s ease;
+        }
+    }
+}

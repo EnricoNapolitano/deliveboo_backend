@@ -1,0 +1,47 @@
+.card-section {
+    padding-top: 20px;
+
+    .card {
+        margin: 10px 10px;
+    }
+
+    figure {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+}
+
+.title-card {
+    min-height: 65px;
+}
+
+.paragraph-card {
+    min-height: 70px;
+}
+
+.price-position {
+    position: relative;
+    bottom: 2px;
+}
+
+.modale {
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+
+    .box-modale {
+        background-color: white;
+        border-radius: 5px;
+        width: 50%;
+        padding: 25px;
+
+        .text-danger {
+            font-size: 2rem;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+:root {
+    --p-orange: #ffa83d;
+    --d-blue: #4888a8;
+    --l-blue: #99b6c4;
+    --l-orange: #ffd199;
+    --d-orange: #ff8330;
+    --black: #000;
+    --white: #fff;
+    --text: #111;
+    --bgc: #f5f5f5;
+    --ff1: "Ubuntu", sans-serif;
+    --ff2: "Jost", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+header {
+    font-family: var(--ff1);
+}
+
+body {
+    font-family: var(--ff2);
+    visibility: inherit;
+}
+
+.custom-text-title {
+    color: var(--d-blue);
+}
+
+.custom-bg-titolone {
+    color: var(--d-orange)
+}
+
+.btn-custom-secondary {
+    background-color: var(--p-orange);
+    color: var(--white);
+}
+
+.btn-custom-secondary:hover {
+    background-color: var(--d-orange);
+    color: var(--white);
+}
+
+.text-custom-primary {
+    color: var(--d-blue);
+}
+
+.text-custom-secondary {
+    color: var(--l-blue);
+}
+
+.bg-custom-primary {
+    background-color: var(--d-blue);
+}
+
+.traslate-down {
+    transform: translate(0px, 10px);
+}
